@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Telefone</ion-title>
+    <ion-title>Processo</ion-title>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -10,11 +10,10 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item *ngFor="let telefone of telefones">
-      <h2>{{telefone.unidade_localizacao}}</h2>
-      <p>{{telefone.numero}}</p>
+    <ion-item *ngFor="let processo of processos">
+      <h2>{{processo.id_processos}}</h2>
+      <p>{{processo.origem}}</p>
 
     </ion-item>
   </ion-list>
 </ion-content>
-

@@ -3,6 +3,7 @@ import { NavController, IonicPage } from 'ionic-angular';
 import { EnderecoService } from '../../service/endereco.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { TelefoneService } from '../../service/telefone.service';
+import { ProcessoService } from '../../service/processo.service';
 
 @IonicPage()
 @Component({
